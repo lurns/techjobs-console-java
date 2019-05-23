@@ -96,7 +96,6 @@ public class JobData {
             term = term.toLowerCase();
             if (info.contains(term)) {
                 results.add(job);
-                i++;
             }
         }
 
